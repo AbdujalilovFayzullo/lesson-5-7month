@@ -1,0 +1,56 @@
+.card__container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.card{
+    margin-top: 50px;
+    &__left{
+        width: 230px;
+    }
+
+    &__title{
+        font-weight: 500;
+        font-size: 32px;
+        color: #122947;
+    }
+
+    &__text{
+        font-weight: 400;
+        font-size: 18px;
+        width: 200px;
+    }
+
+    &__btn{
+        padding: 10px 20px;
+        cursor: pointer;
+        color: #000;
+        font-size: 16px;
+        border: 1px solid gray;
+        background-color: white;
+    }
+
+    &__box{
+        background-image: url('../../../../public/BgImg.png');
+        background-repeat: no-repeat;
+        width: 230px;
+        height: 320px;
+            &_title{
+                padding-top: 210px;
+                padding-left: 97px;
+            }
+            &_text{
+                padding-left: 68px;
+                color: gray;
+            }
+            &_desc{
+                padding-left: 80px;
+            }
+    }
+
+    &__block{
+        display: flex;
+        align-items: center;
+        gap: 100px;
+    }
+}

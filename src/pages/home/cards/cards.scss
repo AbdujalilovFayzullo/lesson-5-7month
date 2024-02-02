@@ -1,0 +1,32 @@
+.cards__container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.cards{
+    margin-top: 100px;
+    background-image: url('../../../../public/BgImg3.png');
+    background-repeat: no-repeat;
+    height: 480px;
+    background-size: cover;
+
+    &__text{
+        font-weight: 500;
+        font-size: 32px;
+        width: 761px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 150px;
+    }
+
+    &__btn{
+        padding: 10px 20px;
+        cursor: pointer;
+        color: #000;
+        font-size: 20px;
+        border: 1px solid gray;
+        margin: 0 auto;
+        display: block;
+        margin-top: 50px;
+    }
+}

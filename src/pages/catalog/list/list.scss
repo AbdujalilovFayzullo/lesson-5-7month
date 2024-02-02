@@ -1,0 +1,20 @@
+.card__boxx{
+    background-image: url('../../../../public/Image10.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 230px;
+    height: 320px;
+}
+
+.list{
+    &__block{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title{
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}

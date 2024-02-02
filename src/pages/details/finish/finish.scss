@@ -1,0 +1,40 @@
+.finish{
+
+    margin-top: 100px;
+    &__block{
+        display: flex;
+        align-items: center;
+        gap: 100px;
+    }
+
+    &__title{
+        font-weight: 500;
+        font-size: 32px;
+    }
+
+    &__text{
+        font-weight: 400;
+        font-size: 16px;
+        color:#9A9DA0;
+    }
+
+    &__desc{
+        color:#122947;
+        font-weight: 400;
+        font-size: 16px;
+        width: 274px;
+    }
+
+    &__item_block{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    &__btn{
+        padding: 10px 28px;
+        background-color: white;
+        border: 1px solid gray;
+        cursor: pointer;
+    }
+}

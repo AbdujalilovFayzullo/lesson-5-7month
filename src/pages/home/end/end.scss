@@ -1,0 +1,14 @@
+.end{
+    margin-top: 100px;
+
+    &__text{
+        padding-left: 100px;
+    }
+
+    &__icons{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-left: 100px;
+    }
+}

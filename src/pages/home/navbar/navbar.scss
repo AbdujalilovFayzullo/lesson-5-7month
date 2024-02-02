@@ -1,0 +1,38 @@
+.navbar__container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.navbar{
+    margin-top: 70px;
+    &__block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title{
+        font-weight: 500;
+        font-size: 58px;
+        text-align: center;
+    }
+
+    &__text{
+        font-size: 18px;
+        font-weight: 400;
+        width: 274px;
+        text-align: center;
+    }
+
+    &__btn{
+        padding: 10px 20px;
+        cursor: pointer;
+        color: #000;
+        font-size: 20px;
+        border: 1px solid gray;
+        background-color: white;
+        margin: 0 auto;
+        display: block;
+        margin-top: 40px;
+    }
+}

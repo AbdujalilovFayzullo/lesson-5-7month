@@ -1,0 +1,41 @@
+.footer__container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.footer{
+    margin-top: 50px;
+
+    &__block{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__left{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+    }
+
+    &__link{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    &__link:focus{
+        color: red;
+    }
+
+    &__icon{
+        width: 25px;
+        height: 25px;
+    }
+
+    &__right{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+}
